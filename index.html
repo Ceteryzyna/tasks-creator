@@ -10,21 +10,32 @@
         integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link href="css/tasks.css" rel="stylesheet">
     <script defer src="js/script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap"
         rel="stylesheet">
 </head>
 
-<body>
-    Lista zadań
-    <form class="js-form">Dodaj nowe zadanie
-        <input class="js-newTask">
-        <button> Dodaj zadanie</button>
-    </form>
+<body class="body">
 
-    <ul class="js-tasks"></ul>
+    <head>
+        <h1 class="header">Lista zadań</h1>
+    </head>
+
+    <form class="form js-form">
+        <h2 class="form__header">Dodaj nowe zadanie</h2>
+        <div class="form__input"><input class="form__newTask js-newTask">
+            <button class="form__button"> Dodaj zadanie</button>
+        </div>
+    </form>
+    <div class="tasks">
+        <h2 class="tasks__header">Lista zadań</h2>
+        <ul class="tasks__tasks js-tasks"></ul>
+    </div>
+
 </body>
 
 </html>
