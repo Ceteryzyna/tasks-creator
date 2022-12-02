@@ -1,0 +1,18 @@
+
+.tasks__header {
+    background-color: white;
+    padding: 25px;
+    margin: 1px;
+    border-bottom: 1px solid rgb(240, 240, 240);
+}
+
+.tasks {
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+.tasks__tasks {
+    margin: 1px;
+    padding: 25px;
+    background-color: white;
+}

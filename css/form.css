@@ -1,0 +1,27 @@
+.form__header {
+    background-color: white;
+    padding: 25px;
+    margin: 1px;
+}
+
+.form__input {
+    margin: 1px;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    background-color: white;
+}
+
+.form__newTask {
+    flex-grow: 1;
+    border: 1px solid rgb(240, 240, 240);
+}
+
+.form__button {
+    background-color: teal;
+    margin: px;
+    color: white;
+    border: 1px solid rgb(240, 240, 240);
+    padding: 10px 25px;
+}
