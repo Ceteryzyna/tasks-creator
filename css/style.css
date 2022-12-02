@@ -1,0 +1,22 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background-color: rgba(236, 234, 234, 0.637);
+    max-width: 700px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    margin: auto;
+}
+
+.header {
+    margin: 5px;
+    padding: 20px 0px 20px 0px;
+    font-size: 35px;
+}
