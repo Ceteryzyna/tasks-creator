@@ -1,4 +1,3 @@
-
 .tasks__header {
     background-color: white;
     padding: 25px;
@@ -11,8 +10,38 @@
     margin-bottom: 3px;
 }
 
-.tasks__tasks {
+.tasksList {
     margin: 1px;
     padding: 25px;
     background-color: white;
+    list-style: inside;
+}
+
+.tasksList__item{
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    border-bottom: 1px solid rgb(240, 240, 240);
+    grid-gap: 20px;
+    padding: 10px;
+    align-items: center;
+}
+
+.tasksList__buttonDone {
+    background-color: green;
+    width: 35px;
+    height: 35px;
+    color: white;
+    border: 2px solid white;
+}
+
+.tasksList__buttonRemove {
+    background-color: red;
+    width: 35px;
+    height: 35px;
+    color: white;
+    border: 2px solid white;
+}
+
+.tasksList__task_content--done {
+    text-decoration:line-through;
 }
