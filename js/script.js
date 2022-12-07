@@ -1,14 +1,5 @@
 {
-    const tasks = [
-        {
-            content: "podlać kwiaty",
-            done: false,
-        },
-        {
-            content: "umyć włosy",
-            done: true,
-        },
-    ];
+    const tasks = [];
 
     const addNewTask = (newTaskContent) => {
         tasks.push({
