@@ -9,19 +9,35 @@
     padding: 25px;
     display: flex;
     flex-direction: row;
-    justify-content: right;
-    background-color: white;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
 }
 
 .form__newTask {
     flex-grow: 1;
+    margin-right: 20px;
     border: 1px solid rgb(240, 240, 240);
+    margin: 5px;
+    padding-left: 15px;
 }
 
 .form__button {
     background-color: teal;
-    margin: px;
+    margin: 5px;
     color: white;
-    border: 1px solid rgb(240, 240, 240);
+    border: none;
     padding: 10px 25px;
+}
+
+@media (max-width: 767px) {
+    .form__button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .form__newTask {
+        height: 40px;
+    }
 }
