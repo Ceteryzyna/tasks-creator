@@ -46,7 +46,7 @@ html {
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 767px) {
     .form__newTask {
         height: 40px;
     }
