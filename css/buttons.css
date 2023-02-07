@@ -1,0 +1,26 @@
+@media (max-width: 767px) {
+    .buttons {
+        margin-bottom: 9px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 9px;
+        width: 100%;
+    }
+}
+
+.buttons__button--hover {
+    color: aquamarine;
+}
+
+.buttons__button--disabled {
+    color: rgb(168, 18, 143);
+    cursor: auto;
+}
+
+.buttons__button {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: rgb(233, 46, 124);
+    cursor: pointer;
+    transition: 0.5s;
+}
