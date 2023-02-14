@@ -8,6 +8,7 @@
 https://ceteryzyna.github.io/tasks-creator/
 
 ## Preview: 
+! [tasks creator] (gif/animation.gif)
 
 
 ## Tech Stack:
