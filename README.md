@@ -8,7 +8,7 @@
 https://ceteryzyna.github.io/tasks-creator/
 
 ## Preview: 
-(https://github.com/Ceteryzyna/tasks-creator/blob/main/gif/Animation.gif?raw=true)
+!(https://github.com/Ceteryzyna/tasks-creator/blob/main/gif/Animation.gif?raw=true)
 
 
 ## Tech Stack:
