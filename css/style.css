@@ -23,6 +23,22 @@ html {
     font-size: 35px;
 }
 
+.list {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding-bottom: 9px;
+    grid-gap: 10px;
+    align-items: center;
+    margin: 1px;
+    background-color: white;
+}
+
+@media (max-width: 767px) {
+    .list {
+        grid-template-columns: 1fr;
+    }
+}
+
 .list__style {
     list-style: none;
     display: grid;
