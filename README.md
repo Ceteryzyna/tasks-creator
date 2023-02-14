@@ -1,7 +1,21 @@
-# Hello World! I'm Paula.
-I am currently learning programming to become a frontend developer in the near future.
-These are my first steps in the IT world.
+# Tasks creator 
+## How does it work?
+### To-do list tool. You add a task to your task list. After completing an activity, you have the option to mark it as complete and hide all completed.
 
 
-## This is my simple tasks creator:
+
+## DEMO:
 https://ceteryzyna.github.io/tasks-creator/
+
+## Preview: 
+
+
+## Tech Stack:
+
+- HTML
+- Javascript
+- CSS (media-queries, drid)
+- normalize.css
+- BEM
+
+
