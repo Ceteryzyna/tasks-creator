@@ -40,6 +40,11 @@ html {
     height: 35px;
     color: white;
     border: 2px solid white;
+    transition: 1s;
+}
+
+.tasksList__buttonDone:hover {
+    background-color: hsl(120, 100%, 35%)
 }
 
 .tasksList__buttonRemove {
@@ -48,6 +53,9 @@ html {
     height: 35px;
     color: white;
     border: 2px solid white;
+}
+.tasksList__buttonRemove:hover {
+    background-color: hsl(0, 100%, 70%);
 }
 
 .tasksList__content {

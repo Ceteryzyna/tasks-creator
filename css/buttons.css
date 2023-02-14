@@ -21,21 +21,13 @@ html {
     background-color: white;
  }
 
-.buttons__button--hover {
-    color: aquamarine;
-}
-
-.buttons__button:disabled {
-    color: gainsboro;
-    cursor: auto;
-}
 
 .buttons__button {
     background-color: rgb(255, 255, 255);
     border: none;
     color: teal;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 1s;
 
 }
 
@@ -45,4 +37,12 @@ html {
         grid-template-columns: 1fr;
         grid-gap: 10px
     }
+}
+.buttons__button:hover {
+    color: rgb(1, 218, 218);
+}
+
+.buttons__button:disabled {
+    color: gainsboro;
+    cursor: auto;
 }

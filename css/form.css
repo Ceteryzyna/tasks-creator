@@ -38,6 +38,7 @@ html {
     color: white;
     border: none;
     padding: 10px 25px;
+    transition: 0.5s;
 }
 
 @media (max-width: 767px) {
@@ -50,4 +51,8 @@ html {
     .form__newTask {
         height: 40px;
     }
+}
+.form__button:hover {
+    transform: scale(1.05);
+
 }
