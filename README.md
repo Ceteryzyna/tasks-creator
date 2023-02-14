@@ -1,6 +1,6 @@
-# Tasks creator 
+# Tasks creator - To-do list tool.
 ## How does it work?
-### To-do list tool. You add a task to your task list. After completing an activity, you have the option to mark it as complete and hide all completed.
+You add a task to your task list. After completing an activity, you have the option to mark it as complete and hide all completed.
 
 
 
