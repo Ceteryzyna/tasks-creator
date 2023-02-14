@@ -1,6 +1,15 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
 @media (max-width: 767px) {
     .buttons {
-        margin-bottom: 9px;
         display: grid;
         grid-template-columns: 1fr;
         gap: 9px;
@@ -8,19 +17,32 @@
     }
 }
 
+.buttons {
+    background-color: white;
+ }
+
 .buttons__button--hover {
     color: aquamarine;
 }
 
-.buttons__button--disabled {
-    color: rgb(168, 18, 143);
+.buttons__button:disabled {
+    color: gainsboro;
     cursor: auto;
 }
 
 .buttons__button {
     background-color: rgb(255, 255, 255);
     border: none;
-    color: rgb(233, 46, 124);
+    color: teal;
     cursor: pointer;
     transition: 0.5s;
+
+}
+
+@media (max-width: 767px) {
+    .buttons__button {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px
+    }
 }
