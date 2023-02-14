@@ -15,7 +15,7 @@ https://ceteryzyna.github.io/tasks-creator/
 
 - HTML
 - Javascript
-- CSS (media-queries, drid)
+- CSS (media-queries, grid, flex)
 - normalize.css
 - BEM
 
