@@ -12,12 +12,6 @@ html {
     background-color: white;
     padding: 25px;
     margin: 1px;
-    border-bottom: 1px solid rgb(240, 240, 240);
-}
-
-.tasks {
-    margin-top: 10px;
-    margin-bottom: 3px;
 }
 
 .tasksList {
@@ -27,13 +21,17 @@ html {
     list-style: inside;
 }
 
-.tasksList__item{
+.tasksList__item {
     display: grid;
     grid-template-columns: 1fr 6fr 1fr;
     border-bottom: 1px solid rgb(240, 240, 240);
     grid-gap: 20px;
     padding: 10px;
     align-items: center;
+}
+
+.tasksList__item--hidden {
+    display: none;
 }
 
 .tasksList__buttonDone {
@@ -52,6 +50,10 @@ html {
     border: 2px solid white;
 }
 
-.tasksList__task_content--done {
-    text-decoration:line-through;
+.tasksList__content {
+    word-break: break-word;
+}
+
+.tasksList__content--done {
+    text-decoration: line-through;
 }
