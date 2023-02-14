@@ -52,7 +52,7 @@ html {
         height: 40px;
     }
 }
+
 .form__button:hover {
     transform: scale(1.05);
-
 }
