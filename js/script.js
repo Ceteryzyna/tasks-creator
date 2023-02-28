@@ -61,14 +61,14 @@
 
         for (const task of tasks) {
             htmlString += `
-               <li class="tasksList__item ${hideDoneTasks && task.done ? "tasksList__item--hidden" :""}">
+            <li class="tasksList__item ${hideDoneTasks && task.done ? "tasksList__item--hidden" : ""}">
                <button class="js-done tasksList__buttonDone">
-               ${task.done ? "✔" : ""}
-               </button>   
-               <span class="tasksList__content ${task.done ? "tasksList__content--done" : ""}
-               ">
-               ${task.content}</span>
-               <button class="tasksList__buttonDone tasksList__buttonRemove js-remove tasksList__buttonRemove">
+            ${task.done ? "✔" : ""}
+            </button>   
+            <span class="tasksList__content ${task.done ? "tasksList__content--done" : ""}
+            ">
+            ${task.content}</span>
+            <button class="tasksList__buttonDone tasksList__buttonRemove js-remove tasksList__buttonRemove">
                    🗑
                    </button></li>`;
         };
@@ -81,27 +81,30 @@
             return;
         }
         const hideAllDoneElement = document.querySelector(".js-hideAllDone");
+
         hideAllDoneElement.addEventListener("click", () => { toggleHideDone(); });
+
         const setAllDoneElement = document.querySelector(".js-setAllDone");
+
         setAllDoneElement.addEventListener("click", () => { setAllDone(); });
     };
 
     const renderButtons = () => {
         let htmlButtons = "";
-        if (tasks.length === 0) {
-            htmlButtons;
-        } else {
-            htmlButtons = `<button class="buttons__button js-hideAllDone">
+
+        if (tasks.length > 0) {
+            htmlButtons = `
+            <button class="buttons__button js-hideAllDone">
             ${hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone
         </button>
         <button class="buttons__button js-setAllDone"
         ${tasks.every(({ done }) => done) ? "disabled" : ""}>
-        Ukończ wszystkie </button>`;
+        Ukończ wszystkie 
+        </button>
+        `;
         }
         document.querySelector(".js-buttons").innerHTML = htmlButtons;
     };
-
-
 
     const render = () => {
         renderTasks();
@@ -123,6 +126,7 @@
         if (newTaskContent === "") {
             return;
         }
+        
         addNewTask(newTaskContent);
     };
 
