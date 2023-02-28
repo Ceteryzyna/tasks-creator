@@ -39,6 +39,7 @@ html {
     border: none;
     padding: 10px 25px;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 @media (max-width: 767px) {
